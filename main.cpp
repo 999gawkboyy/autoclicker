@@ -48,7 +48,8 @@ int main(int argc, char** argv) {
 
     if (argc != 2)
     {
-        printf("Usage: fast_autoclick.exe <cps(int) | 0 = maximum cps>");
+        printf("Usage: fast_autoclick.exe <cps(int) | 0 = maximum cps>\n");
+        return -1;
     }
 
     
