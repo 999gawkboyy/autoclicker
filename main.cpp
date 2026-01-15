@@ -1,6 +1,6 @@
 // fast_autoclick.cpp
 // Build (g++ / MinGW-w64):
-// g++ -O3 -march=native -mtune=native -static -s fast_autoclick.cpp -o fast_autoclick.exe -lwinmm
+// g++ -O3 -march=native -mtune=native -static -s main.cpp -o fast_autoclick.exe -lwinmm
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
